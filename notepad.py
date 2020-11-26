@@ -9,7 +9,7 @@ ak_root.title(f"Untitled 1.txt")
 def about():
     tmsg.showinfo('About','Notepad By Aaditya Kandel')
 def contact():
-	tmsg.showinfo('Contact','Contact:\n\nE-mail: kandelaaditya11@gmail.com\n\nPhone: 9810081122')
+	tmsg.showinfo('Contact','Contact:\n\nE-mail: kandelaaditya11@gmail.com')
 def save():
 	ak_root.title(f"{(nameen.get())}{(ex.get())}")
 	with open(f"{(nameen.get())}{(ex.get())}","w") as f:
